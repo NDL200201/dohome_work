@@ -1,0 +1,5 @@
+[0.023s] Invoking command in '/home/server/dev_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/server/dev_ws/build/realsense2_camera_msgs -- -j8 -l8
+[0.044s] [0mCMake Error: The source directory "/home/server/dev_ws/src/realsense-ros-ros2-development/realsense2_camera_msgs" does not exist.
+[0.044s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.045s] gmake: *** [Makefile:1611: cmake_check_build_system] Error 1
+[0.047s] Invoked command in '/home/server/dev_ws/build/realsense2_camera_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/server/dev_ws/build/realsense2_camera_msgs -- -j8 -l8

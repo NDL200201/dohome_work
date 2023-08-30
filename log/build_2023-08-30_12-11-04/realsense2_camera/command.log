@@ -1,0 +1,2 @@
+Invoking command in '/home/server/dev_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/server/dev_ws/src/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/server/dev_ws/install/realsense2_camera
+Invoked command in '/home/server/dev_ws/build/realsense2_camera' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/server/dev_ws/src/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/server/dev_ws/install/realsense2_camera

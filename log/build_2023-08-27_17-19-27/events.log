@@ -1,0 +1,409 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000708] (realsense_gazebo_plugin) JobQueued: {'identifier': 'realsense_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.000753] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.009768] (realsense_gazebo_plugin) JobStarted: {'identifier': 'realsense_gazebo_plugin'}
+[0.014707] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.015281] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.015844] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/server/dev_ws/build/my_bot', '--', '-j8', '-l8'], 'cwd': '/home/server/dev_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'server'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/server'), ('OLDPWD', '/home/server'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/server/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'server'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'server'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/server-server:@/tmp/.ICE-unix/1527,unix/server-server:/tmp/.ICE-unix/1527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2858ddc4_c1cf_4ad9_b4eb_f7849792f58c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NS0AA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/server/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/server/dev_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/server/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.019208] (realsense_gazebo_plugin) JobProgress: {'identifier': 'realsense_gazebo_plugin', 'progress': 'cmake'}
+[0.019944] (realsense_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/server/dev_ws/src/realsense_gazebo_plugin', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/server/dev_ws/install/realsense_gazebo_plugin'], 'cwd': '/home/server/dev_ws/build/realsense_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'server'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/server'), ('OLDPWD', '/home/server'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/server/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'server'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'server'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/server-server:@/tmp/.ICE-unix/1527,unix/server-server:/tmp/.ICE-unix/1527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2858ddc4_c1cf_4ad9_b4eb_f7849792f58c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NS0AA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/server/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/server/dev_ws/build/realsense_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/server/dev_ws/install/my_bot')]), 'shell': False}
+[0.032094] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.051395] (my_bot) CommandEnded: {'returncode': 0}
+[0.069249] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.077092] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/server/dev_ws/build/my_bot'], 'cwd': '/home/server/dev_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'server'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/server'), ('OLDPWD', '/home/server'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/server/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'server'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'server'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/server-server:@/tmp/.ICE-unix/1527,unix/server-server:/tmp/.ICE-unix/1527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2858ddc4_c1cf_4ad9_b4eb_f7849792f58c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NS0AA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/server/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/server/dev_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/server/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.084225] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.084482] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/config\n'}
+[0.084619] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/config/main.rviz\n'}
+[0.084734] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/config/drive.rviz\n'}
+[0.084849] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[0.084947] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[0.085207] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/config/real.rviz\n'}
+[0.085293] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/config/xe.rviz\n'}
+[0.085397] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/description\n'}
+[0.085586] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[0.085688] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.085747] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.085804] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[0.085883] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.085965] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/description/cam.xacro\n'}
+[0.086022] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.086077] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/description/depth_camera.xacro\n'}
+[0.086132] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/launch\n'}
+[0.086187] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.086250] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/launch/description_launch.py\n'}
+[0.086306] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/launch/display.launch.py\n'}
+[0.086361] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/launch/launch_mp.launch.py\n'}
+[0.086415] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/worlds\n'}
+[0.086470] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/worlds/mp.world\n'}
+[0.086524] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.086580] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/worlds/sim.world\n'}
+[0.086634] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/urdf\n'}
+[0.086688] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/camera.xacro\n'}
+[0.086742] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/robot.urdf.xacro\n'}
+[0.086795] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/robot_core.xacro\n'}
+[0.086852] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/ros2_control.xacro\n'}
+[0.086938] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/gazebo_control.xacro\n'}
+[0.087165] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/inertial_macros.xacro\n'}
+[0.087340] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.087678] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.088136] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.088544] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.088962] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.089148] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.089284] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.089435] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.089512] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.089642] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.089768] (my_bot) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.089843] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.090205] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.090410] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.090550] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/server/dev_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.090683] (my_bot) CommandEnded: {'returncode': 0}
+[0.099741] (-) TimerEvent: {}
+[0.128156] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.162096] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.188892] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.191297] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.196792] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.199824] (-) TimerEvent: {}
+[0.206974] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.222194] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.277327] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.278522] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299913] (-) TimerEvent: {}
+[0.379758] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400001] (-) TimerEvent: {}
+[0.500276] (-) TimerEvent: {}
+[0.527602] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.554803] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.578328] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.580147] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.583904] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.585146] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.589971] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.590240] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.598728] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.598974] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.599164] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.599303] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.599438] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.599589] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.599746] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.599879] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.600010] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.600120] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.600230] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.600338] (-) TimerEvent: {}
+[0.600472] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.683562] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.683984] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.685948] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.698779] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.700426] (-) TimerEvent: {}
+[0.707075] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.710863] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.720217] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.751672] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.760965] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.784786] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.785247] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.800533] (-) TimerEvent: {}
+[0.800821] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.804718] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.814198] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.839244] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.839649] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.840163] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.840351] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.840469] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.850182] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.850624] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.851187] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.851617] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.852536] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.853006] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.883085] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.892692] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[0.900619] (-) TimerEvent: {}
+[0.921449] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.931456] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[0.956270] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.956662] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.957101] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.958481] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[0.963097] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.000707] (-) TimerEvent: {}
+[1.100996] (-) TimerEvent: {}
+[1.110045] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[1.166589] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.201099] (-) TimerEvent: {}
+[1.227537] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.258090] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[1.259944] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/server/dev_ws/build/realsense_gazebo_plugin\n'}
+[1.269879] (realsense_gazebo_plugin) CommandEnded: {'returncode': 0}
+[1.270667] (realsense_gazebo_plugin) JobProgress: {'identifier': 'realsense_gazebo_plugin', 'progress': 'build'}
+[1.271043] (realsense_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/server/dev_ws/build/realsense_gazebo_plugin', '--', '-j8', '-l8'], 'cwd': '/home/server/dev_ws/build/realsense_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'server'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/server'), ('OLDPWD', '/home/server'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/server/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'server'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'server'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/server-server:@/tmp/.ICE-unix/1527,unix/server-server:/tmp/.ICE-unix/1527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2858ddc4_c1cf_4ad9_b4eb_f7849792f58c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NS0AA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/server/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/server/dev_ws/build/realsense_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/server/dev_ws/install/my_bot')]), 'shell': False}
+[1.301222] (-) TimerEvent: {}
+[1.316273] (realsense_gazebo_plugin) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o\x1b[0m\n'}
+[1.316516] (realsense_gazebo_plugin) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o\x1b[0m\n'}
+[1.401327] (-) TimerEvent: {}
+[1.501628] (-) TimerEvent: {}
+[1.601919] (-) TimerEvent: {}
+[1.702229] (-) TimerEvent: {}
+[1.802513] (-) TimerEvent: {}
+[1.902791] (-) TimerEvent: {}
+[2.003094] (-) TimerEvent: {}
+[2.103343] (-) TimerEvent: {}
+[2.203586] (-) TimerEvent: {}
+[2.303871] (-) TimerEvent: {}
+[2.404154] (-) TimerEvent: {}
+[2.504416] (-) TimerEvent: {}
+[2.604696] (-) TimerEvent: {}
+[2.704969] (-) TimerEvent: {}
+[2.805231] (-) TimerEvent: {}
+[2.905480] (-) TimerEvent: {}
+[3.005735] (-) TimerEvent: {}
+[3.105997] (-) TimerEvent: {}
+[3.206269] (-) TimerEvent: {}
+[3.306569] (-) TimerEvent: {}
+[3.406853] (-) TimerEvent: {}
+[3.507099] (-) TimerEvent: {}
+[3.607393] (-) TimerEvent: {}
+[3.707768] (-) TimerEvent: {}
+[3.808063] (-) TimerEvent: {}
+[3.908363] (-) TimerEvent: {}
+[4.008648] (-) TimerEvent: {}
+[4.108940] (-) TimerEvent: {}
+[4.209251] (-) TimerEvent: {}
+[4.309572] (-) TimerEvent: {}
+[4.409922] (-) TimerEvent: {}
+[4.510283] (-) TimerEvent: {}
+[4.610622] (-) TimerEvent: {}
+[4.710967] (-) TimerEvent: {}
+[4.811333] (-) TimerEvent: {}
+[4.911624] (-) TimerEvent: {}
+[5.011904] (-) TimerEvent: {}
+[5.112166] (-) TimerEvent: {}
+[5.212444] (-) TimerEvent: {}
+[5.312770] (-) TimerEvent: {}
+[5.413054] (-) TimerEvent: {}
+[5.513336] (-) TimerEvent: {}
+[5.613646] (-) TimerEvent: {}
+[5.713939] (-) TimerEvent: {}
+[5.814243] (-) TimerEvent: {}
+[5.914540] (-) TimerEvent: {}
+[6.014827] (-) TimerEvent: {}
+[6.115102] (-) TimerEvent: {}
+[6.215381] (-) TimerEvent: {}
+[6.315662] (-) TimerEvent: {}
+[6.415949] (-) TimerEvent: {}
+[6.516231] (-) TimerEvent: {}
+[6.616514] (-) TimerEvent: {}
+[6.716793] (-) TimerEvent: {}
+[6.817083] (-) TimerEvent: {}
+[6.917353] (-) TimerEvent: {}
+[7.017669] (-) TimerEvent: {}
+[7.117991] (-) TimerEvent: {}
+[7.218282] (-) TimerEvent: {}
+[7.318592] (-) TimerEvent: {}
+[7.418850] (-) TimerEvent: {}
+[7.519131] (-) TimerEvent: {}
+[7.619413] (-) TimerEvent: {}
+[7.719693] (-) TimerEvent: {}
+[7.819975] (-) TimerEvent: {}
+[7.920260] (-) TimerEvent: {}
+[8.020540] (-) TimerEvent: {}
+[8.120837] (-) TimerEvent: {}
+[8.221124] (-) TimerEvent: {}
+[8.321408] (-) TimerEvent: {}
+[8.421696] (-) TimerEvent: {}
+[8.521979] (-) TimerEvent: {}
+[8.622261] (-) TimerEvent: {}
+[8.722540] (-) TimerEvent: {}
+[8.822822] (-) TimerEvent: {}
+[8.923103] (-) TimerEvent: {}
+[9.023389] (-) TimerEvent: {}
+[9.123668] (-) TimerEvent: {}
+[9.223944] (-) TimerEvent: {}
+[9.324228] (-) TimerEvent: {}
+[9.424518] (-) TimerEvent: {}
+[9.524803] (-) TimerEvent: {}
+[9.625086] (-) TimerEvent: {}
+[9.725369] (-) TimerEvent: {}
+[9.825699] (-) TimerEvent: {}
+[9.925979] (-) TimerEvent: {}
+[10.026261] (-) TimerEvent: {}
+[10.126542] (-) TimerEvent: {}
+[10.226833] (-) TimerEvent: {}
+[10.327129] (-) TimerEvent: {}
+[10.427411] (-) TimerEvent: {}
+[10.527691] (-) TimerEvent: {}
+[10.627994] (-) TimerEvent: {}
+[10.728281] (-) TimerEvent: {}
+[10.828571] (-) TimerEvent: {}
+[10.928861] (-) TimerEvent: {}
+[11.029145] (-) TimerEvent: {}
+[11.129451] (-) TimerEvent: {}
+[11.229755] (-) TimerEvent: {}
+[11.330060] (-) TimerEvent: {}
+[11.430377] (-) TimerEvent: {}
+[11.530694] (-) TimerEvent: {}
+[11.630980] (-) TimerEvent: {}
+[11.731276] (-) TimerEvent: {}
+[11.831579] (-) TimerEvent: {}
+[11.931901] (-) TimerEvent: {}
+[12.032213] (-) TimerEvent: {}
+[12.132512] (-) TimerEvent: {}
+[12.232792] (-) TimerEvent: {}
+[12.333083] (-) TimerEvent: {}
+[12.433400] (-) TimerEvent: {}
+[12.533719] (-) TimerEvent: {}
+[12.634017] (-) TimerEvent: {}
+[12.734308] (-) TimerEvent: {}
+[12.834594] (-) TimerEvent: {}
+[12.934889] (-) TimerEvent: {}
+[13.035192] (-) TimerEvent: {}
+[13.135495] (-) TimerEvent: {}
+[13.235784] (-) TimerEvent: {}
+[13.336097] (-) TimerEvent: {}
+[13.436396] (-) TimerEvent: {}
+[13.536690] (-) TimerEvent: {}
+[13.636980] (-) TimerEvent: {}
+[13.737278] (-) TimerEvent: {}
+[13.837593] (-) TimerEvent: {}
+[13.937886] (-) TimerEvent: {}
+[14.038181] (-) TimerEvent: {}
+[14.138481] (-) TimerEvent: {}
+[14.238804] (-) TimerEvent: {}
+[14.339119] (-) TimerEvent: {}
+[14.439425] (-) TimerEvent: {}
+[14.539727] (-) TimerEvent: {}
+[14.640032] (-) TimerEvent: {}
+[14.740335] (-) TimerEvent: {}
+[14.840630] (-) TimerEvent: {}
+[14.940941] (-) TimerEvent: {}
+[15.041250] (-) TimerEvent: {}
+[15.141537] (-) TimerEvent: {}
+[15.241839] (-) TimerEvent: {}
+[15.342138] (-) TimerEvent: {}
+[15.442436] (-) TimerEvent: {}
+[15.542793] (-) TimerEvent: {}
+[15.643075] (-) TimerEvent: {}
+[15.743371] (-) TimerEvent: {}
+[15.843671] (-) TimerEvent: {}
+[15.943971] (-) TimerEvent: {}
+[16.044296] (-) TimerEvent: {}
+[16.144590] (-) TimerEvent: {}
+[16.244881] (-) TimerEvent: {}
+[16.345183] (-) TimerEvent: {}
+[16.445494] (-) TimerEvent: {}
+[16.545788] (-) TimerEvent: {}
+[16.646090] (-) TimerEvent: {}
+[16.746379] (-) TimerEvent: {}
+[16.846671] (-) TimerEvent: {}
+[16.946962] (-) TimerEvent: {}
+[17.047267] (-) TimerEvent: {}
+[17.147522] (-) TimerEvent: {}
+[17.247803] (-) TimerEvent: {}
+[17.348078] (-) TimerEvent: {}
+[17.448361] (-) TimerEvent: {}
+[17.548631] (-) TimerEvent: {}
+[17.648898] (-) TimerEvent: {}
+[17.749185] (-) TimerEvent: {}
+[17.849465] (-) TimerEvent: {}
+[17.949747] (-) TimerEvent: {}
+[18.050029] (-) TimerEvent: {}
+[18.150308] (-) TimerEvent: {}
+[18.250585] (-) TimerEvent: {}
+[18.350873] (-) TimerEvent: {}
+[18.451161] (-) TimerEvent: {}
+[18.551500] (-) TimerEvent: {}
+[18.651795] (-) TimerEvent: {}
+[18.752077] (-) TimerEvent: {}
+[18.852363] (-) TimerEvent: {}
+[18.952641] (-) TimerEvent: {}
+[19.052946] (-) TimerEvent: {}
+[19.153256] (-) TimerEvent: {}
+[19.253527] (-) TimerEvent: {}
+[19.353815] (-) TimerEvent: {}
+[19.454128] (-) TimerEvent: {}
+[19.554409] (-) TimerEvent: {}
+[19.654683] (-) TimerEvent: {}
+[19.754950] (-) TimerEvent: {}
+[19.855215] (-) TimerEvent: {}
+[19.955472] (-) TimerEvent: {}
+[20.055744] (-) TimerEvent: {}
+[20.156020] (-) TimerEvent: {}
+[20.256296] (-) TimerEvent: {}
+[20.356573] (-) TimerEvent: {}
+[20.456849] (-) TimerEvent: {}
+[20.557126] (-) TimerEvent: {}
+[20.657401] (-) TimerEvent: {}
+[20.757696] (-) TimerEvent: {}
+[20.857967] (-) TimerEvent: {}
+[20.958256] (-) TimerEvent: {}
+[21.058577] (-) TimerEvent: {}
+[21.158907] (-) TimerEvent: {}
+[21.259210] (-) TimerEvent: {}
+[21.359508] (-) TimerEvent: {}
+[21.459797] (-) TimerEvent: {}
+[21.560088] (-) TimerEvent: {}
+[21.660378] (-) TimerEvent: {}
+[21.760672] (-) TimerEvent: {}
+[21.860964] (-) TimerEvent: {}
+[21.961258] (-) TimerEvent: {}
+[22.061570] (-) TimerEvent: {}
+[22.161862] (-) TimerEvent: {}
+[22.262140] (-) TimerEvent: {}
+[22.362421] (-) TimerEvent: {}
+[22.462701] (-) TimerEvent: {}
+[22.562988] (-) TimerEvent: {}
+[22.663278] (-) TimerEvent: {}
+[22.763554] (-) TimerEvent: {}
+[22.863851] (-) TimerEvent: {}
+[22.898327] (realsense_gazebo_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librealsense_gazebo_plugin.so\x1b[0m\n'}
+[22.963975] (-) TimerEvent: {}
+[23.064271] (-) TimerEvent: {}
+[23.164612] (-) TimerEvent: {}
+[23.264958] (-) TimerEvent: {}
+[23.365278] (-) TimerEvent: {}
+[23.465575] (-) TimerEvent: {}
+[23.565902] (-) TimerEvent: {}
+[23.666192] (-) TimerEvent: {}
+[23.766516] (-) TimerEvent: {}
+[23.815755] (realsense_gazebo_plugin) StdoutLine: {'line': b'[100%] Built target realsense_gazebo_plugin\n'}
+[23.825048] (realsense_gazebo_plugin) CommandEnded: {'returncode': 0}
+[23.866611] (-) TimerEvent: {}
+[23.872192] (realsense_gazebo_plugin) JobProgress: {'identifier': 'realsense_gazebo_plugin', 'progress': 'install'}
+[23.872700] (realsense_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/server/dev_ws/build/realsense_gazebo_plugin'], 'cwd': '/home/server/dev_ws/build/realsense_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'server'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/server'), ('OLDPWD', '/home/server'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/server/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'server'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'server'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/server-server:@/tmp/.ICE-unix/1527,unix/server-server:/tmp/.ICE-unix/1527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2858ddc4_c1cf_4ad9_b4eb_f7849792f58c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NS0AA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/server/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/server/dev_ws/build/realsense_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/server/dev_ws/install/my_bot')]), 'shell': False}
+[23.879723] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.879989] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so\n'}
+[23.883667] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/server/dev_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so" to ""\n'}
+[23.883922] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/include/\n'}
+[23.884060] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin\n'}
+[23.884221] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h\n'}
+[23.884342] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h\n'}
+[23.884471] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh\n'}
+[23.884585] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv\n'}
+[23.884713] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin\n'}
+[23.884872] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin\n'}
+[23.885020] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh\n'}
+[23.885189] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv\n'}
+[23.885345] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh\n'}
+[23.885561] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv\n'}
+[23.885747] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash\n'}
+[23.885914] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh\n'}
+[23.886057] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh\n'}
+[23.886209] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv\n'}
+[23.886364] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv\n'}
+[23.886569] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin\n'}
+[23.886764] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.886919] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.887091] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake\n'}
+[23.887246] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake\n'}
+[23.887382] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/server/dev_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml\n'}
+[23.888892] (realsense_gazebo_plugin) CommandEnded: {'returncode': 0}
+[23.937226] (realsense_gazebo_plugin) JobEnded: {'identifier': 'realsense_gazebo_plugin', 'rc': 0}
+[23.937937] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[0.018s] Invoking command in '/home/server/dev_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/server/dev_ws/build/realsense_gazebo_plugin -- -j8 -l8
+[0.096s] [100%] Built target realsense_gazebo_plugin
+[0.111s] Invoked command in '/home/server/dev_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --build /home/server/dev_ws/build/realsense_gazebo_plugin -- -j8 -l8

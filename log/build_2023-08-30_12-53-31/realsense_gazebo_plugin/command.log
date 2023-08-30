@@ -1,0 +1,2 @@
+Invoking command in '/home/server/dev_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/server/dev_ws/build/realsense_gazebo_plugin -- -j8 -l8
+Invoked command in '/home/server/dev_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --build /home/server/dev_ws/build/realsense_gazebo_plugin -- -j8 -l8
